@@ -1,0 +1,9 @@
+div.collection > div.card > img {
+    transition: .5s ease-in-out;
+}
+  
+div.collection > div.card > img:hover {
+    transform: scale(2);
+    position: inherit;
+    z-index: 10000;
+}

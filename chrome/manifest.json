@@ -1,0 +1,17 @@
+{
+  "name": "Hanafuda Online Plus",
+  "description": "Ajoute des fonctions au jeu hanafuda online.",
+  "version": "1.2",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "hanafudaOnlinePlus.html",
+    "default_icon": "hanafudaOnlinePlus_extensions.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://www.hanafuda.online/*"],
+      "css": ["hanafudaOnline.css"],
+      "js": ["hanafudaOnline.js"]
+    }
+  ]
+}
